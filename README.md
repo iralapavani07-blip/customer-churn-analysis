@@ -111,3 +111,4 @@ Dataset
 ---
 
 ## Project Structure
+customer-churn-analysis/ │ ├── data/ ├── notebooks/ ├── scripts/ ├── outputs/ │   ├── churn_distribution.png │   ├── model_results.png │   └── Dashboard_preview.jpeg │ ├── architecture/ ├── INSIGHTS.md └── README.md
