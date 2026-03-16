@@ -1,128 +1,135 @@
-# Customer Churn Analysis & Prediction
+Customer Churn Analysis & Prediction
 
-## Dashboard Preview
+"Python" (https://img.shields.io/badge/Python-3.9-blue)
+"Pandas" (https://img.shields.io/badge/Pandas-Data%20Analysis-green)
+"Scikit-Learn" (https://img.shields.io/badge/Scikit--Learn-ML-orange)
+"PowerBI" (https://img.shields.io/badge/PowerBI-Dashboard-yellow)
+"Status" (https://img.shields.io/badge/Project-Completed-brightgreen)
 
-![Customer Churn Dashboard](outputs/Dashboard_preview.jpeg)
+---
 
-## Project Overview
+Dashboard Preview
+
+"Customer Churn Dashboard" (outputs/Dashboard_preview.jpeg)
+
+---
+
+Project Overview
 
 Customer churn is a major challenge for telecom companies.
-This project analyzes customer churn using the **Telco Customer Churn dataset** and identifies the key factors influencing customer attrition.
+This project analyzes customer churn using the Telco Customer Churn dataset and identifies the key factors influencing customer attrition.
 
-The project combines **data analysis, machine learning, and interactive visualization** to generate actionable business insights.
-
----
-
-## Dataset Information
-
-Dataset: **Telco Customer Churn Dataset**
-
-Total Customers: **7043**
-Churned Customers: **1869**
-Overall Churn Rate: **26.54%**
-
-The dataset contains customer demographic information, account details, and service usage patterns.
+The project combines data analysis, machine learning, and interactive visualization to generate actionable business insights.
 
 ---
 
-## Project Architecture
+Dataset Information
 
-```
-Dataset
-   ↓
-Data Loading (Pandas)
-   ↓
-Data Cleaning
-   ↓
-Exploratory Data Analysis
-   ↓
-Feature Encoding
-   ↓
-Train-Test Split
-   ↓
-Machine Learning Model (Logistic Regression)
-   ↓
+Dataset: Telco Customer Churn Dataset
+
+Total Customers: 7043
+Churned Customers: 1869
+Features: 21
+
+The dataset contains customer demographics, account information, and service usage patterns used to predict churn behavior.
+
+---
+
+Technologies Used
+
+• Python
+• Pandas
+• NumPy
+• Matplotlib
+• Seaborn
+• Scikit-Learn
+• Power BI
+
+---
+
+Key Insights
+
+• Customers with month-to-month contracts churn the most
+• Customers using electronic check payments show higher churn
+• Higher monthly charges correlate with higher churn probability
+• Long-term contracts significantly reduce churn risk
+
+---
+
+Model Performance
+
+Metric| Score
+Accuracy| 80%
+Precision| 74%
+Recall| 65%
+F1 Score| 69%
+
+Model Used: Logistic Regression
+
+---
+
 Model Evaluation
-   ↓
-Power BI Dashboard Visualization
-```
+
+"Model Results" (outputs/model_results.png)
 
 ---
 
-## Technologies Used
-
-Python
-Pandas
-NumPy
-Matplotlib
-Scikit-learn
-Power BI
-
----
-
-## Key Insights
-
-• Customers with **month-to-month contracts churn the most**
-• Customers using **electronic check payments show higher churn rates**
-• **Higher monthly charges correlate with higher churn probability**
-• Long-term contracts significantly **reduce churn risk**
-
----
-## Model Performance
-
-| Metric | Score |
-|------|------|
-| Accuracy | 80% |
-| Precision | 74% |
-| Recall | 65% |
-| F1 Score | 69% |
-
-Model Used: **Logistic Regression**
-### Model Evaluation
-
-![Model Results](outputs/model_results.png)
-
----
-
-## Project Outputs
+Project Outputs
 
 The project includes:
 
-* Data analysis using Python
-* Machine learning churn prediction model
-* Visualizations for churn trends
-* Interactive **Power BI dashboard**
+• Exploratory Data Analysis
+• Feature importance analysis
+• Churn distribution visualizations
+• Machine learning churn prediction model
+• Power BI interactive dashboard
 
 ---
 
-## Dashboard Overview
+Business Value
 
-The Power BI dashboard provides:
-
-• Total customers
-• Churned customers
-• Churn rate KPI
-• Internet service distribution
-• Contract vs churn analysis
-• Payment method insights
-• Monthly charges vs churn analysis
-
----
-
-## Business Value
-
-The analysis helps telecom companies:
+This system helps telecom companies:
 
 • Identify high-risk customers
-• Improve customer retention strategies
-• Optimize pricing and contract models
-• Reduce churn and increase long-term revenue
+• Understand churn drivers
+• Improve retention strategies
+• Reduce revenue loss
 
 ---
 
-## Future Improvements
+Project Architecture
+
+Dataset
+→ Data Cleaning
+→ Exploratory Data Analysis
+→ Feature Engineering
+→ Model Training
+→ Prediction
+→ Business Insights Dashboard
+
+---
+
+Project Structure
+
+customer-churn-analysis/
+
+│
+├── data/
+├── notebooks/
+├── scripts/
+├── outputs/
+│   ├── churn_distribution.png
+│   ├── model_results.png
+│   └── Dashboard_preview.jpeg
+│
+├── architecture/
+├── INSIGHTS.md
+└── README.md
+
+---
+
+Future Improvements
 
 • Deploy churn prediction model as an API
 • Build real-time churn monitoring dashboard
 • Apply advanced models such as Random Forest or XGBoost
-
