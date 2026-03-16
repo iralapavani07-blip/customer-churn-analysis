@@ -1,5 +1,9 @@
 # Customer Churn Analysis & Prediction
 
+## Dashboard Preview
+
+![Customer Churn Dashboard](outputs/POWERBI%20Dashboard%20customer%20churn%20analysis.jpeg)
+
 ## Project Overview
 
 Customer churn is a major challenge for telecom companies.
