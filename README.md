@@ -70,13 +70,14 @@ Power BI
 ---
 ## Model Performance
 
-Model Used: Logistic Regression
+| Metric | Score |
+|------|------|
+| Accuracy | 80% |
+| Precision | 74% |
+| Recall | 65% |
+| F1 Score | 69% |
 
-Accuracy: ~80%  
-Precision: ~74%  
-Recall: ~65%  
-F1 Score: ~69%
-
+Model Used: **Logistic Regression**
 ### Model Evaluation
 
 ![Model Results](outputs/model_results.png)
