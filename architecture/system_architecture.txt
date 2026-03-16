@@ -1,0 +1,22 @@
+Customer Churn Intelligence System Architecture
+
+Dataset (Telco Customer Data)
+        ↓
+Data Loading (Pandas)
+        ↓
+Data Exploration
+        ↓
+Data Cleaning
+        ↓
+Feature Encoding
+        ↓
+Train-Test Split
+        ↓
+Machine Learning Model
+(Logistic Regression)
+        ↓
+Model Evaluation
+(Accuracy, Confusion Matrix)
+        ↓
+Visualization
+(Churn Graphs)
