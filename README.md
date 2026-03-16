@@ -2,7 +2,7 @@
 
 ## Dashboard Preview
 
-![Customer Churn Dashboard](outputs/POWERBI%20Dashboard%20customer%20churn%20analysis.jpeg)
+![Customer Churn Dashboard](outputs/Dashboard_preview.jpeg)
 
 ## Project Overview
 
