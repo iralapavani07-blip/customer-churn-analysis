@@ -111,4 +111,16 @@ Dataset
 ---
 
 ## Project Structure
-customer-churn-analysis/ │ ├── data/ ├── notebooks/ ├── scripts/ ├── outputs/ │   ├── churn_distribution.png │   ├── model_results.png │   └── Dashboard_preview.jpeg │ ├── architecture/ ├── INSIGHTS.md └── README.md
+## Project Architecture
+
+```mermaid
+flowchart TD
+
+A[Telco Customer Churn Dataset] --> B[Data Cleaning]
+B --> C[Exploratory Data Analysis]
+C --> D[Feature Engineering]
+D --> E[Model Training - Logistic Regression]
+E --> F[Model Evaluation]
+F --> G[Churn Prediction]
+G --> H[Business Insights Dashboard - Power BI]
+```
